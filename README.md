@@ -14,4 +14,7 @@ The signal of bad quality indicate that the ECG segment contains little informat
 # codes
 The model was trained by pytorch, the python code was available and the trained model was named as "trained_model_RRM.pkl". The test code was also available.
 There also provide the signal quality result of patient number 02&04 in the cspc 2020database, the manurally label was also provide for assessment the accuracy of the proposed model.
-The model was developed by Xiangyu Zhang Southeast University China. Further details will be seen in our paper--"Deep-learning based signal quality assessment for wearable ECGs".
+
+The model was developed by Xiangyu Zhang （230179249@seu.edu.cn, Southeast University, China）. 
+
+Further details will be seen in our paper--"Deep-learning based signal quality assessment for wearable ECGs".
