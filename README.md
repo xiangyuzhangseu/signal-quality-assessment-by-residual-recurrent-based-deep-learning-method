@@ -1,7 +1,8 @@
 # signal-quality-assment-by-residual-recurrent-based-deep-learning-method
 This model was designed for classifaction the signal quality of the dynamic ECGs collected by wearable devices. In order to avoid the misjudgment of manually designed features on ECG data and improve the classification accuracy, we designed one deep learning model combined the residual module and recurrent module. The signal qulaity was classcified to three categories: good (label:0) \ medium (label:1) \ bad (label:2).
 The model was trained on the wearable ECG segments with ten-fold cross validation method. The collected dynamic ECG segments randomly divided into 10 parts, nine of which was used as training data and the rest part was utilized as validation data in each fold.
-#data
+
+
 The ECG data was collected by wearable ECG monitoring devices, which collect standard lead-I and lead-II ECG signal with a sampling frequency of 400 Hz and 16-bit resolution over a range of $\pm10$ mV. The ECG data was collected from twenty patients who has or had cardiovascular disease and these collected records contain a variety of abnormal heart rhythms, such as premature ventricular beats (PVC),premature atrial beats (PAC) and atrial fibrillation (AF). A fixed time window of 10 s was used for segmenting the ECG episodes.
 
 The collected ECG segments were classified into three categories according to the complexity of the noise in the segments and its influence on signal feature points.The signal of good quality indicates that the ECG segment is subject to a small amount of noise interference, and contains clear QRS waveform. Feature points such as T and P wave were clearly visible, and can be easily recognized.
